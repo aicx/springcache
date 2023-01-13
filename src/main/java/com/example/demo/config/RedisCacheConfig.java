@@ -40,6 +40,7 @@ public class RedisCacheConfig {
         if (!redisProperties.isUseKeyPrefix()) {
             config = config.disableKeyPrefix();
         }
+
         return config;
     }
 
